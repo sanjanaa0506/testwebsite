@@ -3,10 +3,6 @@
 
 window.myData = window.myData || {};
 
-window.targetGlobalSettings = {
-    clientCode: "accentureplc"
-};
-
 window.myData.page = {
     pageName: "Picasoo & Threads",
     siteSection: "My Art Section",
