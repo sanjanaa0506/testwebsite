@@ -1,6 +1,11 @@
 // Global Data Layer
 
+
 window.myData = window.myData || {};
+
+window.targetGlobalSettings = {
+    clientCode: "accentureplc"
+};
 
 window.myData.page = {
     pageName: "Picasoo & Threads",
