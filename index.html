@@ -25,7 +25,23 @@
   <!--Tag - > June Target-->
   <script src="https://assets.adobedtm.com/e72b4113c11a/f7ad831e3b21/launch-a1af114a3367-development.min.js" ></script> 
 
-     
+ <div id="offerContainer"></div>
+
+<script>
+adobe.target.getOffer({
+  mbox: "Sanjana_Mbox",
+  success: function(offer) {
+    adobe.target.applyOffer({
+      mbox: "Sanjana_Mbox",
+      offer: offer,
+      selector: "#offerContainer"
+    });
+  }
+});
+</script>
+
+
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
